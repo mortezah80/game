@@ -1,0 +1,20 @@
+.MyCards {
+    width: 800px;
+    height: 550px;
+    border:1px solid gold;
+    border-radius: 10px;
+}
+
+.MyCards_imagecontainer {
+    margin-top:30px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+    row-gap: 40px;
+}
+.MyCardsImage {
+    width:149px;
+    height: 220px;
+    border-radius: 5px;
+    border: 2px solid rgb(228, 228, 228);
+}

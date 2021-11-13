@@ -1,0 +1,57 @@
+.Game {
+    background-color: rgb(53, 48, 48);
+    width:100vw;
+    height:100vh;
+    display: flex;
+    color:white;
+}
+.GameButtons {
+    flex:0.25;
+    display: flex;
+    flex-direction: column;
+    padding-top:100px;
+    align-items:flex-end;
+}
+.GameResultContainer {
+    flex:0.75;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.GameButton {
+    margin:15px;
+    height: 50px;
+    width: 170px;
+    font-size: 18px;
+    border:1px solid gold;
+    border-radius:25px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.GameButton:hover {
+    background-color: rgb(68, 63, 63);
+    color:gold;
+    transition: all 0.3s ease;
+
+}
+.active {
+    border:1px solid rgb(253, 224, 61);
+    background-color: rgb(68, 63, 63);
+    color:gold;
+
+}
+
+.PlayerName {
+    font-size: 20px;
+    margin:15px;
+    margin-bottom: 40px;
+    border: 1px solid gold;
+    height: 50px;
+    width: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+}
